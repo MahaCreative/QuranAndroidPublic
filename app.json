@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#fff"
     },
     "ios": {
       "supportsTablet": true
@@ -18,10 +18,25 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.guntur111213.AplikasiAlquran"
     },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/Poppins/Poppins-Black.ttf"]
+        }
+      ],
+      "expo-build-properties"
+    ],
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9044f1e9-1ae8-4118-a3fe-c70c4bc73028"
+      }
     }
   }
 }
